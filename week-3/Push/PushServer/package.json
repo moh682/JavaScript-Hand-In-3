@@ -1,0 +1,21 @@
+{
+  "name": "pushserver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev":"DEBUG=pushserver:* & nodemon js,hbs ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "expo-server-sdk": "^3.2.0",
+    "express": "^4.16.4",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
