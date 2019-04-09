@@ -1,0 +1,1 @@
+export const EXPO_API = "http://ec41d512.ngrok.io";
